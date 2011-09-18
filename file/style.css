@@ -66,9 +66,9 @@ pre {
 
 .ship-it.content::after {
       position: absolute;
-      right: 150px;
-      top: 150px;
-      content: url('end/zoidberg.jpg');
+      right: 350px;
+      top: 250px;
+      content: url('https://github.com/ctshryock/cvs-to-git/raw/master/images/git-logo.png');
 }
 
 .ship-it h1 {
@@ -84,7 +84,7 @@ pre {
 	font-size: 2em;
 	margin: 0;
 	padding: 0;
-	padding-left: 15px;
+	padding-left: 150px;
 }
 
 .ship-it h3 {
@@ -95,6 +95,10 @@ pre {
 	padding-left: 15px;
 	text-align: left;
 	font-size: larger;
+}
+
+.ship-it ul {
+  margin-left:100px;
 }
 
 blockquote {
@@ -125,5 +129,5 @@ strong {
 .integration-manager  {
 	margin: 0 !important;
 	height: 500px;
-	background: url(http://ctshryock.github.com/cvs-to-git/images/integration.png) 275px 200px no-repeat;
+	background: url(https://github.com/ctshryock/cvs-to-git/raw/master/images/integration.png) 275px 200px no-repeat;
 }
